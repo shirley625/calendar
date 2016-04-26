@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Keywords" content="text/html"/>
+        <meta name="description" content="万年历"/>
+        <title>Data</title>
+        <link href="css/Date.css" rel="stylesheet" type="text/css"/>
+        <script src="js/Date.js" type="text/javascript"></script>
+    </head>
+    <body onload="calendar()">
+        <div class="container" >
+            <div id="date">
+                <p>公历
+                    <select onchange="changeCld()" id="sy">
+                    </select>
+                    年
+                    <select onchange="changeCld()" id="sm">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    月
+                    <span id="gz">&nbsp;</span></p>
+            </div>
+            <div id="calendar" >
+                <table id="calendarhead">
+                    <tr>
+                        <td>日</td>
+                        <td>一</td>
+                        <td>二</td>
+                        <td>三</td>
+                        <td>四</td>
+                        <td>五</td>
+                        <td>六</td>
+                    </tr>
+                </table>
+                <table id="calendartable" background="1.jpg">
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

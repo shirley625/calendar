@@ -1,0 +1,35 @@
+/*Date css*/
+
+body {
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    width: 420px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+#date {
+    width:420px;
+    background: #F3F3F3;
+    border: 1px solid #6ECDE7;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#calendar {
+    width: 420px;
+    border: 1px solid #6ECDE7;
+    margin: auto;
+}
+
+#calendar table tr td {
+    width: 420px;
+    width: 60px;
+    font-size: 23px;
+    text-align: center;
+}
